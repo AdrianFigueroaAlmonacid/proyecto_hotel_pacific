@@ -1,0 +1,89 @@
+/* FONTS */
+@font-face {
+  font-family: "Gotham-light";
+  src: url(https://minisitios.ripley.cl/minisitios/estatico/fonts/font-gotham/Gotham-Light.woff);
+  font-weight: 300;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: "Gotham-Book";
+  src: url(https://minisitios.ripley.cl/minisitios/estatico/fonts/font-gotham/Gotham-Book.woff);
+  font-weight: 400;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: "Gotham-Bold";
+  src: url(https://minisitios.ripley.cl/minisitios/estatico/fonts/font-gotham/Gotham-Bold.woff);
+  font-weight: 700;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: "Gotham-Black";
+  src: url(https://minisitios.ripley.cl/minisitios/estatico/fonts/font-gotham/Gotham-Black.woff);
+  font-weight: 900;
+  font-display: fallback;
+}
+
+/* FONTS */
+
+/* ESTILOS GENERALES/MOBILE */
+#CONTAINER-LANDING {
+  box-sizing: border-box;
+  font-size: 16px;
+  text-align: center;
+  scroll-behavior: smooth;
+  padding: 0;
+  margin: 0;
+}
+
+.container-center {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+#CONTAINER-LANDING img {
+  max-width: 100%;
+}
+
+.nav-base {
+  display: flex;
+  justify-content: space-around;
+  background-color: #666766;
+  padding: 5px;
+}
+
+.boton1,
+.boton2,
+.boton3,
+.boton4 {
+  padding: 0 30px;
+  background-color: aquamarine;
+  border-radius: 15px;
+}
+
+#CONTAINER-LANDING a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #000;
+}
+
+.primary-text {
+  font-family: "Gotham-Bold", serif;
+  font-size: 1.5em;
+  font-weight: 900;
+  color: #000;
+}
+
+.primary-text span {
+  color: red;
+}
+
+/* ESTILOS GENERALES/MOBILE */
+
+/* ESTILOS DESKTOP */
+@media only screen and (min-width: 768px) {}
+
+/* ESTILOS DESKTOP */
