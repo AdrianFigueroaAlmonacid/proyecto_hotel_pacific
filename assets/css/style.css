@@ -81,9 +81,48 @@
   color: red;
 }
 
+
+
+.container-home {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.container-home img {
+  width: 100%;
+}
+
+.container-form-home {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 30px;
+}
+
+
+.color1 {
+  color: #4285F4;
+}
+
+.color2 {
+  color: #34A853;
+}
+
 /* ESTILOS GENERALES/MOBILE */
 
 /* ESTILOS DESKTOP */
-@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 768px) {
+  .container-home {
+    grid-template-columns: 50% 50%;
+  }
+
+  .container-form-home {
+    padding: 100px;
+  }
+
+
+}
 
 /* ESTILOS DESKTOP */
