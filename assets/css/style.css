@@ -110,6 +110,27 @@
   color: #34A853;
 }
 
+
+
+.container-select-room {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  height: 100vh;
+  max-width: 1000px;
+  margin: auto;
+}
+
+
+.form1,
+.form2 {
+  display: flex;
+
+  gap: 30px;
+}
+
 /* ESTILOS GENERALES/MOBILE */
 
 /* ESTILOS DESKTOP */
