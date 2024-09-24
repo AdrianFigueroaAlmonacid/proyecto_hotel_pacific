@@ -133,6 +133,28 @@
 
 }
 
+.container-cards-room {
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 30px;
+}
+
+.cards-rooms {
+
+  max-width: 1200px;
+  margin: auto;
+  text-align: left;
+  gap: 20px;
+}
+
+.cards-rooms img {
+
+  width: 100%;
+}
+
 /* ESTILOS GENERALES/MOBILE */
 
 /* ESTILOS DESKTOP */
