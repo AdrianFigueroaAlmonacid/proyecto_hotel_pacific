@@ -111,6 +111,11 @@
 }
 
 
+#roomForm {
+  display: flex;
+  justify-content: space-around;
+}
+
 
 .container-select-room {
   display: flex;
